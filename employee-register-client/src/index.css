@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.invalid-field{
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: #fff;
+}
+
+table div.card-body{
+  text-align: center;
+}
+
+table div.card img{
+  width: 175px;
+  height: 175px;
+  margin: 30px;
+}
+
+/* table div.card .delete-button{
+  visibility: hidden;
+} */
+
+table tr td:not(:nth-child(3)){
+  border-right: 1px solid #00000020;
+}

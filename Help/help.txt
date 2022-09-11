@@ -1,0 +1,93 @@
+1.npm run
+2.npm run ng serve
+3.npm run ng serve -o
+4.node --max_old_space_size=8192 node_modules/@angular/cli/bin/ng build --prod
+5.ng build --prod
+6.npm run ng build --prod
+7.npm -v
+8.node -v
+9.ng --version
+------------ NVM -------------------
+10.nvm list
+11.nvm use 16.16.0
+
+angular version  7.3.3
+nodejs version   10.9.0
+webapi version asp.net core 2.2.0
+install latest 13 angular cli
+---------------------------------
+npm install -g @angular/cli@7.3.3
+http://localhost:4200/
+
+cd ..  //one folder back
+c: //goto c Drive
+d: //goto d drive
+D:\ cd ANG // goto folder
+
+goto cmd 
+-> c:/User/md. Shakhaoat 
+-> ng --version 
+->d: 
+->cd ANG ->ng new AProject
+
+When add application use this command
+ng build --base-href /"toh"/ --prod
+ng build --prod --base-href https://<profile_name>.github.io/<repo_name>/ --deploy-url=https://<profile_name>.github.io/<repo_name>/
+
+----------- for re-Install webPack ------------
+npm install --save-dev webpack
+npm install node-sass
+
+rm -R node_modules
+rm package-lock.json #(this should be removed)
+npm cache verify
+npm install
+
+npm install --save-dev webpack webpack-cli html-webpack-plugin webpack-dev-server webpack-dev-middleware
+
+
+******************************************************************************
+ng build --prod --base-href "http://localhost/"
+----------------------------Final---------------------------------------------
+
+
+
+----------------------------------------------------------------------------------
+IIS -> 
+Add Website -> 
+SiteName: HrmsAngular -> 
+Physical Path: D:\TBL Software Intro\Mustain Bhai\sal-hrms\HrmsAngular\dist ->
+Port: 37291
+->Restart
+->Browse Site.
+------------------------------------------------------------------------------
+Final:
+using pc CMD
+------------------------------------------------------------------------------
+First Comment Local
+environment.ts and environment.prod.ts
+//apiUrl
+//reportApiUrl
+------------------------------------------------------------------------------
+node --max_old_space_size=8192 node_modules/@angular/cli/bin/ng build --prod
+------------------------------------------------------------------------------
+
+asp.net Core migration
+-----------------------
+Add-Migration "InitialCreate"
+Update-Database
+-----------------------
+
+
+React
+---------
+path then write cmd
+npx create-react-app employee-register-client
+cd employee-register-client
+code .
+npm start
+
+cont+k+s
+cont+k  z
+ctrl+shift+` = for open terminal
+npm i -s axios
